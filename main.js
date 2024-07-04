@@ -67,7 +67,8 @@ const diagonalIncr = [0, 1, 1, 2, 3, 2, 2, 3, 3, 4, 3, 4, 2, 3, 1]
 const diagonalDecr = [0, 0, 0, 0, 1, 1, 2, 1, 5, 2, 5, 3]
 const diagonalIncrFalse = [6, 4, 0, 0, 1, 2, 1, 1, 1, 2, 2, 3, 2, 3, 1, 2, 0]
 const column = [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+const row = [0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 0, 1]
+const rowFalse = [6, 6, 4, 0, 0, 1, 1, 2, 2, 1, 3, 3,]
 
-displayTable(diagonalIncrFalse)
+displayTable(diagonalIncr)
 
-export default displayTable
